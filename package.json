@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --minify",
+        "watch": "tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --watch"
+    },
+    "devDependencies": {
+        "axios": "^1.7.7",
+        "laravel-vite-plugin": "^1.0",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "tailwindcss": "^3.4.13"
+    }
+}
